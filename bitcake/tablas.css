@@ -1,0 +1,140 @@
+/* Estilos para las secciones de tablas */
+.content-section {
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2a65a;
+    color: white;
+}
+body {
+    background-color: #fff5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Boton salir*/
+.salir {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #f2a65a;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.salir:hover {
+    background-color: #d2691e;
+}
+
+/*Link*/
+.link {
+    background-color: #f4a261; /* Mismo color que el botón de cerrar sesión */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px; /* Espacio para colocarlo debajo de la tabla */
+}
+
+.link:hover {
+    background-color: #e76f51; /* Color de hover */
+    cursor: pointer;
+}
+
+/* Formulario de ingreso de datos */
+.form-section {
+    width: 25%;
+    background-color: #fff5e6;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d2691e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f2a65a;
+}
+.paginacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paginacion a, .paginacion .pagina-actual {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.paginacion a:hover {
+    background-color: #f0f0f0;
+}
+
+.paginacion .pagina-actual {
+    background-color: #5a5a89;
+    color: #fff;
+    font-weight: bold;
+}
+.form-section-container {
+    display: flex;
+    gap: 20px;
+}

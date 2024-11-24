@@ -1,0 +1,98 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Contenedor de inicio de sesión */
+.login-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ff7f50;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ffcc99;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #fff5e1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #ff7f50;
+    outline: none;
+}
+
+/* Botón de inicio de sesión */
+.login-button {
+    background-color: #ff7f50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #e67340;
+}
+
+/* Enlace de registro */
+.register-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.register-link a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
