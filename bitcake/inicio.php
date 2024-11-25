@@ -31,11 +31,6 @@ $consulta_sql = "SELECT producto_id,nombre_producto, disponible, fecha_ultima_ac
  FROM Inventario";  
 $resultado = $conexion->query($consulta_sql);
 $count = mysqli_num_rows($resultado);
-/*    
-$query = "SELECT nombre_producto, disponible, fecha_ultima_actualizacion
- FROM Inventario LIMIT 10";
-$stmt = $pdo->prepare($query);
-$stmt->execute();*/
 if ($count > 0) {
     echo '<table>';
             echo '<tr><th>ID</th><th>Producto</th><th>Disponible</th><th>Última Actualización</th></tr>';
